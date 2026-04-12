@@ -7,14 +7,9 @@
       .col-12.ps-3(style="border-left: 10px solid #39A900;") 
         h3.mb-1 Generación de códigos de <em>software</em> con inteligencia artificial 
         p.mb-0 
-          | Síntesis: 
-          
-          | Desarrollo e integración de la animación
-
-    
-    p.mt-5 A continuación, se presenta a manera de síntesis, un esquema que articula los elementos principales abordados en el desarrollo del componente formativ
-
-    
+          | Síntesis:          
+          | Desarrollo e integración de la animación    
+    p.mt-5 A continuación, se presenta a manera de síntesis, un esquema que articula los elementos principales abordados en el desarrollo del componente formativ    
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure

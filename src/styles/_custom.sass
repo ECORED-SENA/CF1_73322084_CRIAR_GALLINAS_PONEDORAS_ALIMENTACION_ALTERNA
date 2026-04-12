@@ -76,7 +76,10 @@ figcaption
     background-image: url(../assets/curso/fondos/fondo2.svg)
     background-repeat: no-repeat
     margin-inline: -3.2rem !important
-  
+  &-17
+    background-color: #F6F6F6 !important
+  &-18
+    background-color: #FFF !important
 /*Fin de Colores de fondo*/
 
 /* Ajuste para botones de Slider en Móviles */
@@ -95,8 +98,19 @@ figcaption
   .slyder-a__bullets
     bottom: 10px !important 
 
-.boton:active *, .boton--sm:active *, .boton:focus *, .boton--sm:focus *, .boton:hover *, .boton--sm:hover *, .boton *, .boton--sm *, .barra-avance__boton--regresar
-  color: #fff !important
+.boton *, 
+.boton--sm *, 
+.barra-avance__boton--regresar *, 
+.barra-avance__boton--regresar span,
+.barra-avance__boton--regresar i,
+.boton:hover *, 
+.boton--sm:hover *, 
+.boton:focus *, 
+.boton--sm:focus *, 
+.boton:active *, 
+.boton--sm:active *
+    color: #ffffff !important;
+
 
 /* Código para los subtítulos que tienen imagenes */
 .titulo-con-imagen
@@ -135,5 +149,153 @@ figcaption
 .tabs-a__tab
   background-color: #FDF0AC
 /*Pestanas*/
+
+/*Slideshows*/
+.bg-fondo
+  &-slider
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png") !important
+    background-position: bottom
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FF0011 !important
+.slyder-a__bullets__item--active 
+  background-color: #FF0011 !important
+  border-color: #FF0011
+.slyder-a__bullets__item
+  background-color: #FF0011
+  border: 1px solid #FF0011
+.bloque-texto-b.color-secundario:before
+  background-color: #CBE7E8
+.tarjeta-numerada.color-primario
+  border-color: #F3F0EA
+  background-color: #F3F0EA
+.tarjeta-numerada.color-primario .tarjeta-numerada__numero
+  background-color: #FD9826
+.tarjeta-numerada__numero
+  top: 35%
+/*Slideshows*/
+
+/* Ajuste para botones de Slider en Móviles */
+@media (max-width: $bp-max-sm)
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 35px !important 
+    height: 35px !important
+    background-size: 10px !important 
+    opacity: 1 !important
+  
+  .slyder-a__bullets__item
+    width: 10px !important 
+    height: 10px !important
+    margin: 0 4px !important
+
+  .slyder-a__bullets
+    bottom: 10px !important 
+
+/*Accordion*/
+.tarjeta.acordeonA
+  background-color: #DFE3BC
+
+.acordion__activo
+  background-color: #FFE9B5 !important
+
+.acordion__accion__btn--a
+  background-color: #FF0011 !important
+
+.acordion_titulo
+  color: #fff !important
+
+.acordeonA
+  position: relative  
+  width: 100%  
+  p
+    padding-left: 0 !important  
+  .lista-ul
+    padding-left: 4.3rem
+    li
+      display: flex
+      align-items: flex-start
+      i
+        padding-top: 4px
+
+.acordeon-tipo-2
+  .tarjeta.acordeonA
+    background-color: #DFE3BC
+  .acordion__activo
+    background-color: #FFE9B5 !important
+  .acordion__accion__btn--a
+    background-color: #FF9800 !important
+  .acordion_titulo
+    color: #fff !important
+  .acordeonA
+    p
+      padding-left: 3.5rem !important 
+/*Fin Accordion*/
+
+/*Tablas*/
+.tabla-a.color-acento-botones thead
+  border-color: $color-acento-contenido
+  background-color: $color-acento-contenido !important
+.tabla-a th, table td 
+  text-align: start
+.banner-principal__row .banner-principal__img
+  width: 500px !important
+.separador__tabla
+  background-color: #F6F6F6
+
+.tabla-a table 
+  min-width: 100% !important;
+  table-layout: auto; 
+
+.tabla-a 
+  overflow-x: visible !important; 
+
+.tabla-a
+  table
+    tbody
+      tr:nth-child(odd)
+        background-color: #F6F6F6
+      tr:nth-child(even)
+        background-color: #FFFFFF 
+/*Tablas*/
+
+
+
+/*Audio*/
+.bg-custom-teal
+  background-color: #2D5D6D !important 
+  position: relative
+  overflow: hidden
+  
+.bg-custom-dark-teal
+  background-color: #565C2B !important
+
+.border-lemon
+  border: 4px solid #d4eb79 !important
+  border-radius: 15px
+
+/*Fin Audio*/
+
+
+/* Código para los carruseles */
+.carousel-bg .fas
+  &.fa-chevron-left, &.fa-chevron-right
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    width: 40px
+    height: 40px
+    background-color: #FF0011
+    border-radius: 50%
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+    color: #000
+    font-size: 16px
+  @media screen and (max-width: $bp-max-md)
+    background-color: transparent !important
+    box-shadow: none !important
+    font-size: 20px !important
+
+.bordes
+  border: 1px solid #CBD5E0 !important
+/*Fin Código para los carruseles */
+
 
 
