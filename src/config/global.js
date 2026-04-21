@@ -114,12 +114,7 @@ export default {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
-      },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
+      },      
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',

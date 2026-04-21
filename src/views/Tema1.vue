@@ -230,7 +230,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 En gallinas ponedoras, el ovario izquierdo y el oviducto participan en la formación del huevo en 24–26 horas, influyendo en la postura, nutrición, estrés y manejo lumínico.
-    p(data-aos="fade-left") En el siguiente diagrama se presenta detalladamente los componentes, la formación del huevo y la importancia productiva del sistema reproductivo de la galina ponedora:
+    p(data-aos="fade-left") En el siguiente diagrama se presentan detalladamente los componentes, la formación del huevo y la importancia productiva del sistema reproductivo de la gallina ponedora:
     //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-3
             .p-4.p-md-5
@@ -247,7 +247,7 @@
                         p.mb-0 Ovario: produce los óvulos (yemas).
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        p.mb-0 Oviducto: se divide en infundíbulo (captura del óvulo). magno (formación de la clara). istmo (formación de membranas), útero (formación de la cáscara), vagina (expulsión del huevo).
+                        p.mb-0 Oviducto: se divide en infundíbulo (captura del óvulo), magno (formación de la clara), istmo (formación de membranas), útero (formación de la cáscara), vagina (expulsión del huevo).
                 .row.align-items-center.p-4.p-md-5
                   .col-lg-5.order-2
                     figure
@@ -257,16 +257,16 @@
                     ul.lista-ul.mb-0
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        p.mb-0 Yema
+                        p.mb-0 Yema.
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        p.mb-0 Clara
+                        p.mb-0 Clara.
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        p.mb-0 Membranas
+                        p.mb-0 Membranas.
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        p.mb-0 Cáscara
+                        p.mb-0 Cáscara.
                 .row.align-items-center.p-4.p-md-5
                   .col-lg-5.order-2
                     figure
@@ -306,19 +306,19 @@
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0.mt-1 Fosas nasales
+                  p.mb-0.mt-1 Fosas nasales.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0.mt-1 Laringe
+                  p.mb-0.mt-1 Laringe.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0.mt-1 Tráquea
+                  p.mb-0.mt-1 Tráquea.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0.mt-1 Bronquios
+                  p.mb-0.mt-1 Bronquios.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                  p.mb-0.mt-1 Pulmones
+                  p.mb-0.mt-1 Pulmones.
                 li.d-flex
                   i.fas.fa-check-circle.me-2(style="color:#AD9721")
                   p.mb-0.mt-1 Sacos aéreos (9)
@@ -574,16 +574,16 @@
                         ul.lista-ul.mb-0
                           li.d-flex
                             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                            p.mb-0 Producción del huevo
+                            p.mb-0 Producción del huevo.
                           li.d-flex
                             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                            p.mb-0 Tamaño y calidad de cáscara
+                            p.mb-0 Tamaño y calidad de cáscara.
                           li.d-flex
                             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                            p.mb-0 Sistema inmune
+                            p.mb-0 Sistema inmune.
                           li.d-flex
                             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                            p.mb-0 Conversión alimenticia
+                            p.mb-0 Conversión alimenticia.
                       .bg-color-18.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/carrusel01_2.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center Causas
@@ -591,16 +591,16 @@
                         ul.lista-ul.mb-0
                           li.d-flex
                             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                            p.mb-0 Cambios bruscos de dieta
+                            p.mb-0 Cambios bruscos de dieta.
                           li.d-flex
                             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                            p.mb-0 Hacinamiento
+                            p.mb-0 Hacinamiento.
                           li.d-flex
                             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                            p.mb-0 Depredadores
+                            p.mb-0 Depredadores.
                           li.d-flex
                             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                            p.mb-0 Climas extremos
+                            p.mb-0 Climas extremos.
                           li.d-flex
                             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
                             p.mb-0 Manejo brusco
@@ -611,16 +611,16 @@
                         ul.lista-ul.mb-0
                           li.d-flex
                             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                            p.mb-0 Rutinas fijas
+                            p.mb-0 Rutinas fijas.
                           li.d-flex
                             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                            p.mb-0 Transiciones graduales
+                            p.mb-0 Transiciones graduales.
                           li.d-flex
                             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                            p.mb-0 Protección perimetral
+                            p.mb-0 Protección perimetral.
                           li.d-flex
                             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                            p.mb-0 Manejo tranquilo
+                            p.mb-0 Manejo tranquilo.
                   .col-lg-3.order-lg-1.d-none.d-lg-block
                       figure
                         img(src='@/assets/curso/tema1/img7.png', style="max-width: 250px", data-aos="zoom-in").m-auto
@@ -935,7 +935,7 @@
                       img(src="@/assets/curso/tema1/slide03_7.png")
                   .col-lg-7.order-1.mb-3.mb-lg-0
                     h4 Cuadro comparativo general
-                    P Las cinco libertades tienen un enfoque ético y cualitativo para evitar el sufrimiento, mientras los principios del bienestar Animal son técnicos, cuantitativos y buscan un bienestar integral y proactivo.
+                    P Las cinco libertades tienen un enfoque ético y cualitativo para evitar el sufrimiento, mientras los principios del bienestar animal son técnicos, cuantitativos y buscan un bienestar integral y proactivo.
     //- Fin Slideshow
     .row.justify-content-center.mb-4
       .col-lg-11        
@@ -1120,13 +1120,13 @@
                     ul.lista-ul.mb-0
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        p.mb-0 Desarrollo del aparato reproductivo.
+                        p.mb-0 Desarrollo del aparato reproductor.
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
                         p.mb-0 Inicio de estímulo lumínico.
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        p.mb-0 Incremento gradual de calcio en dieta.                     
+                        p.mb-0 Incremento gradual de calcio en la dieta.                     
                 .row.align-items-center.p-4.p-md-5
                   .col-lg-5.order-2
                     figure
@@ -1168,7 +1168,7 @@
             img(src='@/assets/curso/tema1/tarjeta04_2.png').w-100                
           .p-4
             h4.card-title.text-center.mb-4 Reproductoras
-            p.text-center Producción de huevo fértil, producen pollitas comerciales.
+            p.text-center Producción de huevo fértil; producen pollitas comerciales.
       .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column
         .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
           figure.mb-0
@@ -1180,7 +1180,7 @@
     .row.mb-5      
       .col-lg-8.mb-4.mb-lg-0.p-4(data-aos="fade-right")
         .row
-          p En la medida que se desciende en la pirámide:
+          p En la medida en que se desciende en la pirámide:
         .row.bg-color-13.p-4.mb-3
           ul.lista-ul.mb-0
             li.d-flex
@@ -1188,7 +1188,7 @@
               p.mb-0 Aumenta el número de aves.
             li.d-flex
               i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-              p.mb-0 sminuye el valor genético individual.
+              p.mb-0 Disminuye el valor genético individual.
             li.d-flex
               i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
               p.mb-0 Aumenta el volumen de producción.

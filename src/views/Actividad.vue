@@ -248,7 +248,7 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cómo se llama la estructura genética de la producción avícola que incluye abuelas, reproductoras y líneas comerciales?	Rta(s) correcta(s) (x)',
+            '¿Cómo se llama la estructura genética de la producción avícola que incluye abuelas, reproductoras y líneas comerciales?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -543,7 +543,7 @@ export default {
             {
               id: 'a',
               texto:
-                '¿Cuál de las siguientes acciones contribuye al bienestar animal en aves?',
+                'Proporcionar alimentación adecuada, espacio y condiciones sanitarias.',
               esCorrecta: true,
             },
             {
