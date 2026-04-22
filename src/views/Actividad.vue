@@ -6,7 +6,6 @@
         <Actividad :cuestionario="cuestionario"/>  
   </template>
 <script>
-
 import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 export default {
   name: 'ActividadDidactica',
