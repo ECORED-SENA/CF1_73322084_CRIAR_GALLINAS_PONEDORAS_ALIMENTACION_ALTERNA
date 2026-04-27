@@ -7,6 +7,7 @@
         span
           i.fas.fa-info
       h1 Introducción
+      
     p(data-aos="fade-left") La producción avícola orientada a la obtención de huevo requiere la aplicación de conocimientos técnicos, sanitarios y zootécnicos que garanticen el bienestar de las aves, la eficiencia productiva y el cumplimiento de la normatividad vigente. El manejo integral de gallinas ponedoras implica comprender aspectos como la anatomía aviar, el comportamiento, el bienestar animal, las etapas de desarrollo y las características de las diferentes razas y líneas genéticas.
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-5.bg-color-5.p-4.p-md-5.d-flex.align-items-center.rounded-4(data-aos="fade-right")

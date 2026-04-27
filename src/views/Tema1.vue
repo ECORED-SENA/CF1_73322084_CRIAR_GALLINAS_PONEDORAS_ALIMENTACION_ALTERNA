@@ -290,8 +290,7 @@
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
-          h3.titulo-con-imagen__texto Sistema respiratorio
-    //- Título con imagen
+          h3.titulo-con-imagen__texto Sistema respiratorio    
     p(data-aos="fade-left") En gallinas ponedoras, el ovario izquierdo y el oviducto participan en la formación del huevo en 24–26 horas, influyendo en la postura, nutrición, estrés y manejo lumínico.
     //- Inicio Accordion
     .bg--img_03.mt-5

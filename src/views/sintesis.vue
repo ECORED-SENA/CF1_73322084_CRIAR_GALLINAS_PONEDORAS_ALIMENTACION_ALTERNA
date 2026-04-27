@@ -1,8 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5    
     .row.mb-5
       .col-12.ps-3(style="border-left: 10px solid #39A900;") 
         h3.mb-1 Criar gallinas ponedoras con alimentación alterna para producir huevos semicriollos

@@ -100,8 +100,7 @@
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
-          h3.titulo-con-imagen__texto Enfermedades aviares de importancia sanitaria
-    //- Título con imagen
+          h3.titulo-con-imagen__texto Enfermedades aviares de importancia sanitaria    
     p(data-aos="fade-left") En Colombia, es fundamental reconocer, prevenir y reportar las enfermedades aviares de vigilancia obligatoria; las más importantes son:
     //- Inicio Accordion
     .bg--img_03.mt-5.acordeon-tipo-2
