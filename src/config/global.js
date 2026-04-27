@@ -3,7 +3,7 @@ export default {
     Name:
       'Manejo integral operativo y sanitario en explotaciones avícolas de postura.',
     Description:
-      'El curso tiene como propósito brindar conocimientos técnicos, biológicos y prácticos para el manejo integral de aves de postura en sistemas productivos alternativos. La formación aborda aspectos fundamentales como anatomía aviar, etología, bienestar animal, etapas de desarrollo, razas y líneas de gallinas ponedoras, así como criterios para su selección según el sistema de producción. <br> <br> Además, el programa fortalece competencias en manejo sanitario y preventivo, incluyendo enfermedades aviares, uso responsable de medicamentos, bioseguridad, asepsia y normas de seguridad y salud en el trabajo. En el componente práctico, el aprendiz desarrollará habilidades relacionadas con el manejo del alojamiento, control del peso corporal, viabilidad del lote y uso adecuado de herramientas zootécnicas. De esta manera, el curso promueve la producción sostenible de huevos semicriollos, el bienestar animal y la generación de oportunidades productivas en el contexto rural. ',
+      'El curso brinda formación técnica, biológica y práctica para el manejo integral de gallinas ponedoras en sistemas alternativos. Aborda anatomía, comportamiento, bienestar animal, razas y selección. Fortalece competencias en sanidad, bioseguridad y uso responsable de medicamentos. Además, desarrolla habilidades en manejo productivo, promoviendo la producción sostenible y oportunidades en el ámbito rural.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -114,7 +114,7 @@ export default {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
-      },      
+      },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -123,7 +123,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/73320176 _CF1_DU.pdf',
       },
       {
         icono: 'fas fa-download',
