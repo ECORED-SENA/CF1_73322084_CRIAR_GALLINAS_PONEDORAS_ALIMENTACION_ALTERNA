@@ -110,12 +110,12 @@
             .row(titulo=" <i>Newcastle (NDV – Paramyxovirus</i> aviar tipo 1)")
               .col-12
                 p La enfermedad es de origen viral y altamente contagiosa, presentando diferentes cepas: las velogénicas, muy patógenas, generan signos respiratorios severos, alteraciones nerviosas y digestivas con alta mortalidad; las mesogénicas causan cuadros moderados con afectación en la producción; y las lentogénicas, de carácter leve, se emplean comúnmente en vacunación. Su impacto incluye grandes pérdidas económicas y, en humanos, puede ocasionar conjuntivitis leve. Para su control se requiere vacunación obligatoria, notificación inmediata, cuarentena, eliminación de aves infectadas y desinfección rigurosa.
-            .row(titulo="Influenza Aviar (IA)")
+            .row(titulo="Influenza aviar (IA)")
               .col-12
-                p La influenza aviar es una enfermedad causada por el virus de Influenza tipo A, destacándose los subtipos H5 y H7 por su alta patogenicidad. Sus síntomas varían según la cepa, pero en casos graves incluyen depresión, caída brusca en la postura, edema en cabeza y crestas, diarreas verdes, hemorragias internas y alta mortalidad. Tiene gran importancia sanitaria por su riesgo zoonótico, su regulación internacional y el impacto económico que puede generar. En Colombia, se controla mediante vigilancia permanente, pruebas obligatorias para movilización y, ante brotes, sacrificio sanitario, cuarentena y restricción de zonas.
-            .row(titulo="Salmonelosis Aviar")
+                p La influenza aviar es una enfermedad causada por el virus de influenza tipo A, destacándose los subtipos H5 y H7 por su alta patogenicidad. Sus síntomas varían según la cepa, pero en casos graves incluyen depresión, caída brusca en la postura, edema en cabeza y crestas, diarreas verdes, hemorragias internas y alta mortalidad. Tiene gran importancia sanitaria por su riesgo zoonótico, su regulación internacional y el impacto económico que puede generar. En Colombia, se controla mediante vigilancia permanente, pruebas obligatorias para movilización y, ante brotes, sacrificio sanitario, cuarentena y restricción de zonas.
+            .row(titulo="Salmonelosis aviar")
               .col-12
-                p La salmonelosis aviar es causada por bacterias del género Salmonella, destacándose  <i>S. Enteritidis</i> y  <i>S. Typhimurium</i> por su carácter zoonótico, y  <i>S. Gallinarum</i> y  <i>S. Pullorum</i> por afectar específicamente a las aves. En pollitos provoca depresión, diarrea blanca y alta mortalidad, mientras que en adultas puede presentarse de forma asintomática con caída en la postura y transmisión a los huevos. Su impacto radica en el riesgo para la salud pública y restricciones comerciales. El control se basa en estricta higiene, calidad de alimento y agua, eliminación de portadoras, control de roedores, vacunación en algunos casos y monitoreo sanitario constante.
+                p La salmonelosis aviar es causada por bacterias del género salmonella, destacándose  <i>S. Enteritidis</i> y  <i>S. Typhimurium</i> por su carácter zoonótico, y  <i>S. Gallinarum</i> y  <i>S. Pullorum</i> por afectar específicamente a las aves. En pollitos provoca depresión, diarrea blanca y alta mortalidad, mientras que en adultas puede presentarse de forma asintomática con caída en la postura y transmisión a los huevos. Su impacto radica en el riesgo para la salud pública y restricciones comerciales. El control se basa en estricta higiene, calidad de alimento y agua, eliminación de portadoras, control de roedores, vacunación en algunos casos y monitoreo sanitario constante.
         .col-lg-3 
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema2/img2.png", alt="").img400.m-auto
@@ -485,13 +485,13 @@
               ul.lista-ul.mb-0.color-vinotinto-custom
                 li.d-flex
                   i.fas.fa-check-circle.me-2
-                  p.mb-0.mt-1 Externa o perimetral: Evita el ingreso de patógenos desde el exterior.
+                  p.mb-0.mt-1 Externa o perimetral: evita el ingreso de patógenos desde el exterior.
                 li.d-flex
                   i.fas.fa-check-circle.me-2
-                  p.mb-0.mt-1 Interna u operativa: Controla la diseminación de patógenos dentro de la granja.
+                  p.mb-0.mt-1 Interna u operativa: controla la diseminación de patógenos dentro de la granja.
                 li.d-flex
                   i.fas.fa-check-circle.me-2
-                  p.mb-0.mt-1 Sanitaria o biológica: Mantiene inmunidad y salud de las aves.
+                  p.mb-0.mt-1 Sanitaria o biológica: mantiene inmunidad y salud de las aves.
           .row(titulo="Protocolos esenciales ")
               ul.lista-ul.mb-0.color-vinotinto-custom
                 li.d-flex
@@ -583,9 +583,9 @@
             img(src='@/assets/curso/tema2/icono-lectura.svg', style="width: 80px")          
           .flex-grow-1.text-center.text-lg-start
             h4.mb-2 Principales protocolos o procedimientos operativos estándar (POE) que deben cumplirse
-            p.mb-0 Presenta los protocolos o procedimientos operativos estándar esenciales que deben cumplir en el manejo de gallinas ponedoras para garantizar prácticas, bioseguridad, bineestar animal y una producción eficiente.  
+            p.mb-0 Presenta los protocolos o procedimientos operativos estándar esenciales que deben cumplir en el manejo de gallinas ponedoras para garantizar prácticas, bioseguridad, bienestar animal y una producción eficiente.  
           .mt-3.mt-lg-0.ps-lg-4            
-            a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")
+            a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_02.pdf')" target="_blank")
               span.fw-bold.me-2 Descargar
               i.fas.fa-file-download
     p(data-aos="fade-left")  La bioseguridad en granjas avícolas de postura no es una acción puntual, sino un sistema continuo y verificable que protege la salud de las aves, la inocuidad de los huevos y la estabilidad del sistema productivo. Cumplir los protocolos establecidos por el ICA garantiza la certificación como “Granja Avícola Biosegura” (Resolución 3651 de 2014) y constituye el primer paso para obtener la certificación de Bienestar Animal (Resolución 16409 de 2024).

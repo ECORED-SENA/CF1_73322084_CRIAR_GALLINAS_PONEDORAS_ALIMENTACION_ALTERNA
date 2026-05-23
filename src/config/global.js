@@ -65,11 +65,6 @@ export default {
             titulo: 'Razas y líneas de aves ponedoras',
             hash: 't_1_5',
           },
-          {
-            numero: '1.6',
-            titulo: 'Parámetros para la selección de gallinas criollas',
-            hash: 't_1_6',
-          },
         ],
       },
 
@@ -306,7 +301,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Líder del Ecosistema',
-          centro: 'Centro Agroturístico- Regional Santander',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Olga Constanza Bermúdez ',
@@ -319,12 +314,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Elizabeth Peña Sierra',
+          nombre: 'Eliana Audrey Manchola Pérez ',
           cargo: 'Experto temático',
-          centro: 'Centro De Servicios Financieros / Regional Distrito Capital',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
         {
-          nombre: 'Paola Alexandra Moya',
+          nombre: 'Paula Marcela Vidal Quintero',
           cargo: 'Evaluadora instruccional',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
@@ -335,7 +331,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Juan Jose Calderon Gutiérrez',
+          nombre: 'Carlos Julian Ramirez Benitez',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
@@ -359,6 +355,12 @@ export default {
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
+          nombre: 'Carlos eduardo Garavito Parada ',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
           nombre: 'Juan Pablo Rojas Polania',
           cargo: 'Animador y productor multimedia',
           centro:
@@ -376,13 +378,19 @@ export default {
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
+        {
+          nombre: 'Fabio Armando Ortiz Reyes',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
       ],
     },
     {
       titulo: 'GESTORES DE REPOSITORIO',
       autores: [
         {
-          nombre: 'Javier Ricardo Ortiz Puentes',
+          nombre: 'Ricardo Oliveros Zambrano ',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

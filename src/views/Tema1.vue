@@ -219,7 +219,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 En gallinas ponedoras, el ovario izquierdo y el oviducto participan en la formación del huevo en 24–26 horas, influyendo en la postura, nutrición, estrés y manejo lumínico.
-    p.mb-5(data-aos="fade-left") En el siguiente diagrama se presentan detalladamente los componentes, la formación del huevo y la importancia productiva del sistema reproductivo de la gallina ponedora:
+    p.mb-5(data-aos="fade-left") En el siguiente recurso se presentan detalladamente los componentes, la formación del huevo y la importancia productiva del sistema reproductivo de la gallina ponedora:
     //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-3
             .p-4.p-md-5
@@ -406,7 +406,7 @@
               .col-md-7.ps-md-4
                 h2.mb-3.fw-bold(style="color:#fff") Pódcast
                 .tarjeta.bg-white.p-3.shadow-sm.border-lemon
-                  h5.mb-3.fw-bold Gallinas con bienestar: producción inteligentes
+                  h5.mb-3.fw-bold Gallinas con bienestar: producción inteligente
                   TarjetaAudio.color-primario(
                     texto="" 
                     :audio="require('@/assets/componentes/audios/podcast.mp3')"
@@ -593,7 +593,7 @@
                             p.mb-0 Climas extremos.
                           li.d-flex
                             i.fas.fa-check-circle.me-3
-                            p.mb-0 Manejo brusco
+                            p.mb-0 Manejo brusco.
                       .bg-color-18.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/carrusel01_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center Prevención
@@ -742,7 +742,7 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Las cinco libertades del bienestar animal
     //- Título con imagen
-    p(data-aos="fade-left") En esta sección se profundizará en cada una de las libertades que se manejan los diferentes sistemas productivos para el bienestar animal.
+    p(data-aos="fade-left") En esta sección se profundizará en cada una de las libertades que manejan los diferentes sistemas productivos para el bienestar animal.
     //- Inicio Accordion
     .bg--img_03.mt-5.acordeon-tipo-2
       .row.justify-content-center
@@ -939,7 +939,7 @@
             h4.mb-2 Diferencia entre los principios del bienestar animal y las cinco libertades en aves de postura
             p.mb-0 Para profundizar en cada una de las diferencias existentes entre las cinco libertades y los principios del bienestar animal, lo invitamos a realizar la siguiente lectura complementaria:     
           .mt-3.mt-lg-0.ps-lg-4            
-            a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")
+            a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_01.pdf')" target="_blank")
               span.fw-bold.me-2 Descargar
               i.fas.fa-file-download
     Separador
@@ -1417,24 +1417,24 @@
                       td Variable, color y tamaño heterogéneo
                     tr
                       td Rusticidad / Adaptación
-                      td Baja; requieren control climático y sanitario
-                      td Alta; resistentes a climas extremos, depredadores y enfermedades locales
+                      td Baja: requieren control climático y sanitario
+                      td Alta: resistentes a climas extremos, depredadores y enfermedades locales
                     tr
                       td Alimentación
                       td Necesitan dieta balanceada y precisa
-                      td Flexible; pueden complementar con forraje y subproductos agrícolas
+                      td Flexible: pueden complementar con forraje y subproductos agrícolas
                     tr
                       td Expresión de conductas naturales
-                      td Limitada; espacios reducidos
-                      td Completa; escarban, se acicalan, usan nidos y perchas
+                      td Limitada: espacios reducidos
+                      td Completa: escarban, se acicalan, usan nidos y perchas
                     tr
                       td Manejo sanitario
-                      td Estricto; alta bioseguridad
-                      td Menos exigente; manejo preventivo básico suficiente
+                      td Estricto: alta bioseguridad
+                      td Menos exigente: manejo preventivo básico suficiente
                     tr
                       td Costo inicial y mantenimi1ento
-                      td Alto; inversión en infraestructura y alimentación
-                      td Bajo; sistema rústico, menor costo de mantenimiento
+                      td Alto: inversión en infraestructura y alimentación
+                      td Bajo: sistema rústico, menor costo de mantenimiento
                     tr
                       td Vida productiva
                       td 1–2 años óptimos

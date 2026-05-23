@@ -18,7 +18,7 @@ export default {
         'Manejo integral operativo y sanitario en explotaciones avícolas de postura.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión de los aprendices sobre los fundamentos biológicos, sanitarios y productivos en la crianza de gallinas ponedoras, mediante la resolución de preguntas de selección múltiple y verdadero o falso, que permitan identificar el nivel de conocimiento adquirido sobre anatomía aviar, bienestar animal, manejo sanitario, bioseguridad y sistemas de producción avícola.',
+        '<b> Objetivo:</b> evaluar la comprensión de los aprendices sobre los fundamentos biológicos, sanitarios y productivos en la crianza de gallinas ponedoras, mediante la resolución de preguntas de selección múltiple y verdadero o falso, que permitan identificar el nivel de conocimiento adquirido sobre anatomía aviar, bienestar animal, manejo sanitario, bioseguridad y sistemas de producción avícola.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -361,7 +361,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Colibacilosis',
+              texto: 'Colibacilosis.',
               esCorrecta: false,
             },
           ],
@@ -436,7 +436,7 @@ export default {
         {
           id: 14,
           texto:
-            '¿Cuál es la vía de administración más común para vacunas en aves recién nacidas contra <i>Newcastle?</i>',
+            '¿Cuál es la vía de administración más común para vacunas en aves recién nacidas contra Newcastle?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -448,12 +448,12 @@ export default {
             {
               id: 'b',
               texto: 'Ocular o spray.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'c',
               texto: 'Intravenosa.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'd',
