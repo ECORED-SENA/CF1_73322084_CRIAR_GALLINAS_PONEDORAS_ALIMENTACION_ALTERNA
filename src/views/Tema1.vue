@@ -27,89 +27,78 @@
           h3.titulo-con-imagen__texto Anatomía externa del ave
     //- Título con imagen
     p(data-aos="fade-left") La anatomía externa de la gallina ponedora permite identificar estructuras visibles clave para evaluar su estado sanitario, bienestar y desempeño productivo en sistemas avícolas. Las partes principales son:
-    //- Pestanas horizontales
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
-        TabsC.color-acento-contenido.mt-1
-          .py-3.py-md-4(titulo="Cabeza")
-            .row
-              .col-md-6
+    //- Carrusel
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3             
+        .carousel-bg
+          .row.justify-content-center.mb-5.align-items-center
+            .col-lg-9.mb-3.mb-lg-0.order-lg-2
+              SlyderF(columnas="col-xl-6 col-lg-6")
+                .bg-color-18.tarjeta.h-100.bordes.overflow-hidden
+                  img(src='@/assets/curso/tema1/carrusel-img1.png').w-100
+                  .p-4
+                    h4.card-title.text-center.mb-3 Cabeza
+                    p.text-center Pico, cresta, barbillas, ojos, orificios nasales.
+                .bg-color-18.tarjeta.h-100.bordes.overflow-hidden
+                  img(src='@/assets/curso/tema1/carrusel-img2.png').w-100
+                  .p-4
+                    h4.card-title.text-center.mb-3 Cuello
+                    p.text-center Estructura flexible que conecta cabeza y tronco del ave.
+                .bg-color-18.tarjeta.h-100.bordes.overflow-hidden
+                  img(src='@/assets/curso/tema1/carrusel-img3.png').w-100
+                  .p-4
+                    h4.card-title.text-center.mb-3 Tronco
+                    p.text-center Parte central del cuerpo donde se ubican órganos vitales.
+                .bg-color-18.tarjeta.h-100.bordes.overflow-hidden
+                  img(src='@/assets/curso/tema1/carrusel-img4.png').w-100
+                  .p-4
+                    h4.card-title.text-center.mb-3 Alas
+                    p.text-center Extremidades que permiten equilibrio, desplazamiento y regulación térmica.
+                .bg-color-18.tarjeta.h-100.bordes.overflow-hidden
+                  img(src='@/assets/curso/tema1/carrusel-img5.png').w-100
+                  .p-4
+                    h4.card-title.text-center.mb-3 Patas
+                    p.text-center Extremidades que permiten sostén, locomoción y escarbar alimento.
+                .bg-color-18.tarjeta.h-100.bordes.overflow-hidden
+                  img(src='@/assets/curso/tema1/carrusel-img6.png').w-100
+                  .p-4
+                    h4.card-title.text-center.mb-3 Cloaca
+                    p.text-center Abertura común para excreción y reproducción en aves.
+            .col-lg-3.order-lg-1.d-none.d-lg-block
                 figure
-                  img(src='@/assets/curso/tema1/pestana01_1.png')
-              .col-md-6.mb-4.mb-md-0
-                h4 Cabeza
-                p Pico, cresta, barbillas, ojos, orificios nasales.
-          .py-3.py-md-4(titulo="Cuello")
-            .row
-              .col-md-6.mb-4.mb-md-0
-                figure
-                  img(src='@/assets/curso/tema1/pestana01_2.png')
-              .col-md-6
-                h4 Cuello
-                p Estructura flexible que conecta cabeza y tronco del ave.
-          .py-3.py-md-4(titulo="Tronco")
-            .row
-              .col-md-6.mb-4.mb-md-0
-                figure
-                  img(src='@/assets/curso/tema1/pestana01_3.png')
-              .col-md-6
-                h4 Tronco
-                p Parte central del cuerpo donde se ubican órganos vitales.
-          .py-3.py-md-4(titulo="Alas")
-            .row
-              .col-md-6.mb-4.mb-md-0
-                figure
-                  img(src='@/assets/curso/tema1/pestana01_4.png')
-              .col-md-6
-                h4 Alas
-                p Extremidades que permiten equilibrio, desplazamiento y regulación térmica.
-          .py-3.py-md-4(titulo="Patas")
-            .row
-              .col-md-6.mb-4.mb-md-0
-                figure
-                  img(src='@/assets/curso/tema1/pestana01_5.png')
-              .col-md-6
-                h4 Patas
-                p Extremidades que permiten sostén, locomoción y escarbar alimento.
-          .py-3.py-md-4(titulo="Cloaca")
-            .row
-              .col-md-6.mb-4.mb-md-0
-                figure
-                  img(src='@/assets/curso/tema1/pestana01_6.png')
-              .col-md-6
-                h4 Cloaca
-                p Abertura común para excreción y reproducción en aves.
-    //- Cierres Pestanas horizontales
+                  img(src='@/assets/curso/tema1/imagen-carrusel.png', style="max-width: 250px", data-aos="zoom-in").m-auto
+    //- Fin Carrusel
     p(data-aos="fade-left") La importancia productiva de las estructuras externas radica en su capacidad para reflejar el estado sanitario, nutricional y funcional de las gallinas ponedoras en producción, tales como:
     //- Inicio Tarjetas
     .row.justify-content-center(data-aos="fade-right")
       .col-sm-12.col-md-6.col-lg-3.mb-4.d-flex.flex-column
-        .tarjeta.p-0.rounded-4.h-100.bg-white.border.overflow-hidden
+        .tarjeta.p-0.h-100.bg-white.shadow.border.overflow-hidden
           figure.mb-0
             img(src='@/assets/curso/tema1/tarjeta01_1.png').w-100
           .p-4
             h4.card-title.text-center.mb-4 Cresta y barbilla
-            p.mb-0 Indican el estado sanitario y circulación sanguínea.
+            p.text-center.mb-0 Indican el estado sanitario y circulación sanguínea.
       .col-sm-12.col-md-6.col-lg-3.mb-4.d-flex.flex-column
-        .tarjeta.p-0.rounded-4.h-100.bg-white.border.overflow-hidden
+        .tarjeta.p-0.h-100.bg-white.shadow.border.overflow-hidden
           figure.mb-0
             img(src='@/assets/curso/tema1/tarjeta01_2.png').w-100
           .p-4
             h4.card-title.text-center.mb-4 Plumaje
-            p.mb-0 Refleja bienestar y nutrición.
+            p.text-center.mb-0 Refleja bienestar y nutrición.
       .col-sm-12.col-md-6.col-lg-3.mb-4.d-flex.flex-column
-        .tarjeta.p-0.rounded-4.h-100.bg-white.border.overflow-hidden
+        .tarjeta.p-0.h-100.bg-white.shadow.border.overflow-hidden
           figure.mb-0
             img(src='@/assets/curso/tema1/tarjeta01_3.png').w-100
           .p-4
             h4.card-title.text-center.mb-4 Cloaca
-            p.mb-0 Fundamental para postura y evaluación sanitaria.
+            p.text-center.mb-0 Fundamental para postura y evaluación sanitaria.
       .col-sm-12.col-md-6.col-lg-3.mb-4.d-flex.flex-column
-        .tarjeta.p-0.rounded-4.h-100.bg-white.border.overflow-hidden
+        .tarjeta.p-0.h-100.bg-white.shadow.border.overflow-hidden
           figure.mb-0
             img(src='@/assets/curso/tema1/tarjeta01_4.png').w-100
           .p-4
             h4.card-title.text-center.mb-4 Patas
-            p.mb-0 Permiten evaluar problemas óseos o deficiencias minerales.
+            p.text-center.mb-0 Permiten evaluar problemas óseos o deficiencias minerales.
     //- Fin Tarjetas
     //- Título con imagen
     .bg-full-width.mt-5
@@ -121,100 +110,100 @@
     //- Título con imagen
     p(data-aos="fade-left") El sistema digestivo aviar permite transformar el alimento en nutrientes esenciales, mediante órganos que cumplen funciones específicas en captura, digestión, absorción y excreción. Los órganos principales son:
     //- Inicio Infografia
-    .row.justify-content-center
-      .col-lg-10
+    .row.mb-5.justify-content-center      
+      .col-lg-7
         PasosA.color-acento-contenido(tipo="n")
-          .row
-            .col-lg
+          .row.align-items-center
+            .col-lg.mb-4.mb-lg-0
               h3 Pico
-              p Captura del alimento.
-            .col-auto
+              p.mb-0 Captura del alimento.
+            .col-auto.mx-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/imagen-linea1.png').img125
-          .row
-            .col-auto
+          .row.align-items-center
+            .col-auto.mx-auto.mb-4.mb-lg-0
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/imagen-linea2.png').img125
-            .col-lg.text-start
+            .col-lg.text-start.ps-lg-4
               h3 Esófago
-              p Transporta el alimento.
-          .row
-            .col-lg
+              p.mb-0 Transporta el alimento.
+          .row.align-items-center
+            .col-lg.mb-4.mb-lg-0
               h3 Buche
-              p Almacenamiento temporal y humedecimiento.
-            .col-auto
+              p.mb-0 Almacenamiento temporal y humedecimiento.
+            .col-auto.mx-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/imagen-linea3.png').img125
-          .row
-            .col-auto
+          .row.align-items-center
+            .col-auto.mx-auto.mb-4.mb-lg-0
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/imagen-linea4.png').img125
-            .col-lg.text-start
+            .col-lg.text-start.ps-lg-4
               h3 Proventrículo
-              p Estómago glandular (enzimas digestivas).
-          .row
-            .col-lg
+              p.mb-0 Estómago glandular (enzimas digestivas).
+          .row.align-items-center
+            .col-lg.mb-4.mb-lg-0
               h3 Molleja
-              p Estómago muscular que tritura el alimento.
-            .col-auto
+              p.mb-0 Estómago muscular que tritura el alimento.
+            .col-auto.mx-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/imagen-linea5.png').img125
-          .row
-            .col-auto
+          .row.align-items-center
+            .col-auto.mx-auto.mb-4.mb-lg-0
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/imagen-linea6.png').img125
-            .col-lg.text-start
+            .col-lg.text-start.ps-lg-4
               h3 Intestino delgado
-              p Absorción de nutrientes.
-          .row
-            .col-lg
+              p.mb-0 Absorción de nutrientes.
+          .row.align-items-center
+            .col-lg.mb-4.mb-lg-0
               h3 Ciegos
-              p Fermentación bacteriana.
-            .col-auto
+              p.mb-0 Fermentación bacteriana.
+            .col-auto.mx-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/imagen-linea7.png').img125
-          .row
-            .col-auto
+          .row.align-items-center
+            .col-auto.mx-auto.mb-4.mb-lg-0
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/imagen-linea8.png').img125
-            .col-lg.text-start
+            .col-lg.text-start.ps-lg-4
               h3 Intestino grueso
-              p Absorción de agua.
-          .row
-            .col-lg.text-start
+              p.mb-0 Absorción de agua.
+          .row.align-items-center
+            .col-lg.text-start.mb-4.mb-lg-0
               h3 Cloaca
-              p Salida común digestiva y reproductiva.
-            .col-auto
+              p.mb-0 Salida común digestiva y reproductiva.
+            .col-auto.mx-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/imagen-linea9.png').img125            
     //- Fin Infografia
     p(data-aos="fade-left") El sistema digestivo es muy importante en la producción de una gallina porque:
-    //- Inicio Tarjetas
-    .row(data-aos="fade-right")
-      .col-sm-6.col-lg.mb-4.d-flex.flex-column
-        .tarjeta.p-4.rounded-5.h-100.bg-white.border
+    //- Inicio Tarjetas    
+    .row.justify-content-center(data-aos="fade-right")      
+      .col-12.col-md-6.col-lg-4.mb-4.d-flex.flex-column
+        .tarjeta.p-4.rounded-4.h-100.bg-white.border.shadow
           .row.justify-content-center.mb-3.align-items-center
-            .col-7
+            .col-5.col-sm-4.col-md-5.mb-3
               figure
-                img(src='@/assets/curso/tema1/tarjeta02_1.svg', alt='' style="width:100px").m-auto
-          h4.card-title.text-center.mb-4 Importancia 1
-          p.text-center Conversión alimenticia.
-      .col-sm-6.col-lg.mb-4.d-flex.flex-column
-        .tarjeta.p-4.rounded-5.h-100.bg-white.border
-          .row.justify-content-center.mb-3
-            .col-7
+                img.img-fluid.m-auto(src='@/assets/curso/tema1/tarjeta02_1.svg', alt='' style="max-width: 100px; width: 100%;")
+          h4.card-title.text-center.mb-3 Importancia 1
+          p.text-center.mb-0 Conversión alimenticia.      
+      .col-12.col-md-6.col-lg-4.mb-4.d-flex.flex-column
+        .tarjeta.p-4.rounded-4.h-100.bg-white.border.shadow
+          .row.justify-content-center.mb-3.align-items-center
+            .col-5.col-sm-4.col-md-5.mb-3
               figure
-                img(src='@/assets/curso/tema1/tarjeta02_2.svg', alt='' style="width:100px").m-auto
-          h4.card-title.text-center.mb-4 Importancia 2
-          p.text-center Deficiencias afectan calidad de cáscara y producción.
-      .col-sm-6.col-lg.mb-4.d-flex.flex-column
-        .tarjeta.p-4.rounded-5.h-100.bg-white.border
-          .row.justify-content-center.mb-3
-            .col-7
+                img.img-fluid.m-auto(src='@/assets/curso/tema1/tarjeta02_2.svg', alt='' style="max-width: 100px; width: 100%;")
+          h4.card-title.text-center.mb-3 Importancia 2
+          p.text-center.mb-0 Deficiencias afectan calidad de cáscara y producción.
+      .col-12.col-md-6.col-lg-4.mb-4.d-flex.flex-column
+        .tarjeta.p-4.rounded-4.h-100.bg-white.border.shadow
+          .row.justify-content-center.mb-3.align-items-center
+            .col-5.col-sm-4.col-md-5.mb-3
               figure
-                img(src='@/assets/curso/tema1/tarjeta02_3.svg', alt='' style="width:100px").m-auto
-          h4.card-title.text-center.mb-4 Importancia 3
-          p.text-center Enfermedades digestivas reducen postura.
+                img.img-fluid.m-auto(src='@/assets/curso/tema1/tarjeta02_3.svg', alt='' style="max-width: 100px; width: 100%;")
+          h4.card-title.text-center.mb-3 Importancia 3
+          p.text-center.mb-0 Enfermedades digestivas reducen postura.
     //- Fin Tarjetas
     //- Título con imagen
     .bg-full-width.mt-5
@@ -230,7 +219,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 En gallinas ponedoras, el ovario izquierdo y el oviducto participan en la formación del huevo en 24–26 horas, influyendo en la postura, nutrición, estrés y manejo lumínico.
-    p(data-aos="fade-left") En el siguiente diagrama se presentan detalladamente los componentes, la formación del huevo y la importancia productiva del sistema reproductivo de la gallina ponedora:
+    p.mb-5(data-aos="fade-left") En el siguiente diagrama se presentan detalladamente los componentes, la formación del huevo y la importancia productiva del sistema reproductivo de la gallina ponedora:
     //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-3
             .p-4.p-md-5
@@ -241,31 +230,31 @@
                       img(src="@/assets/curso/tema1/slide01_1.png")
                   .col-lg-7.order-1.mb-3.mb-lg-0
                     h4 Componentes                    
-                    ul.lista-ul.mb-0
+                    ul.lista-ul.color-vinotinto-custom.mb-0
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        p.mb-0 Ovario: produce los óvulos (yemas).
+                        i.fas.fa-check-circle.me-3
+                        p.mb-0 <b>Ovario:</b> produce los óvulos (yemas).
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        p.mb-0 Oviducto: se divide en infundíbulo (captura del óvulo), magno (formación de la clara), istmo (formación de membranas), útero (formación de la cáscara), vagina (expulsión del huevo).
+                        i.fas.fa-check-circle.me-3
+                        p.mb-0 <b>Oviducto:</b> se divide en infundíbulo (captura del óvulo), magno (formación de la clara), istmo (formación de membranas), útero (formación de la cáscara), vagina (expulsión del huevo).
                 .row.align-items-center.p-4.p-md-5
                   .col-lg-5.order-2
                     figure
                       img(src="@/assets/curso/tema1/slide01_2.png")
                   .col-lg-7.order-1.mb-3.mb-lg-0
                     h4 Formación del huevo (aprox. 24-26 horas):
-                    ul.lista-ul.mb-0
+                    ul.lista-ul.color-vinotinto-custom.mb-0
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Yema.
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Clara.
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Membranas.
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Cáscara.
                 .row.align-items-center.p-4.p-md-5
                   .col-lg-5.order-2
@@ -273,15 +262,15 @@
                       img(src="@/assets/curso/tema1/slide01_3.png")
                   .col-lg-7.order-1.mb-3.mb-lg-0
                     h4 Importancia productiva
-                    ul.lista-ul.mb-0
+                    ul.lista-ul.color-vinotinto-custom.mb-0
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Determina persistencia de postura.
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Sensible a estrés y deficiencias nutricionales.
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Relacionado con programa de iluminación.
     //- Fin Slideshow
     //- Título con imagen
@@ -302,46 +291,46 @@
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
           .row(titulo="Componentes")
             .col-12.ps-0
-              ul.lista-ul.mb-0
+              ul.lista-ul.mb-0.color-vinotinto-custom
                 li.d-flex
-                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  i.fas.fa-circle-right.me-2
                   p.mb-0.mt-1 Fosas nasales.
                 li.d-flex
-                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  i.fas.fa-circle-right.me-2
                   p.mb-0.mt-1 Laringe.
                 li.d-flex
-                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  i.fas.fa-circle-right.me-2
                   p.mb-0.mt-1 Tráquea.
                 li.d-flex
-                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  i.fas.fa-circle-right.me-2
                   p.mb-0.mt-1 Bronquios.
                 li.d-flex
-                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  i.fas.fa-circle-right.me-2
                   p.mb-0.mt-1 Pulmones.
                 li.d-flex
-                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  i.fas.fa-circle-right.me-2
                   p.mb-0.mt-1 Sacos aéreos (9)
           .row(titulo="Características especiales")
-              ul.lista-ul.mb-0
+              ul.lista-ul.mb-0.color-vinotinto-custom
                 li.d-flex
-                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  i.fas.fa-circle-right.me-2
                   p.mb-0.mt-1 Flujo de aire unidireccional.
                 li.d-flex
-                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  i.fas.fa-circle-right.me-2
                   p.mb-0.mt-1 Intercambio gaseoso continuo.
                 li.d-flex
-                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  i.fas.fa-circle-right.me-2
                   p.mb-0.mt-1 Mayor sensibilidad a gases (amoníaco).
           .row(titulo="Importancia en granja")
-              ul.lista-ul.mb-0
+              ul.lista-ul.mb-0.color-vinotinto-custom
                 li.d-flex
-                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  i.fas.fa-circle-right.me-2
                   p.mb-0.mt-1 Ventilación adecuada previene enfermedades.
                 li.d-flex
-                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  i.fas.fa-circle-right.me-2
                   p.mb-0.mt-1 Control de polvo y humedad es fundamental.
                 li.d-flex
-                  i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                  i.fas.fa-circle-right.me-2
                   p.mb-0.mt-1 Relación directa con ganancia de peso y postura.
     //- Fin Accordion
     //- Título con imagen
@@ -358,7 +347,7 @@
         .p-5
           //- Inicio Tabla
           .row.justify-content-center
-            .col-md-6
+            .col-md-auto
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 1.
                 span  Integración anatómica en producción de huevo.
@@ -385,7 +374,7 @@
           .row.justify-content-center
             .col-md-6
               p.bg-color-17.p-2 Referencia Tabla - Norma APA
-    p.mt-3(data-aos="fade-left") El conocimiento de la anatomía aviar permite detectar enfermedades tempranamente, ajustar programas de alimentación, optimizar iluminación y ventilación, y aplicar planes sanitarios y zootécnicos en producción avícola.
+    p(data-aos="fade-left") El conocimiento de la anatomía aviar permite detectar enfermedades tempranamente, ajustar programas de alimentación, optimizar iluminación y ventilación, y aplicar planes sanitarios y zootécnicos en producción avícola.
     Separador
     //- Inicio Tema1.2
     .row.mt-5
@@ -454,53 +443,55 @@
     p(data-aos="fade-left") En sistemas semicriollos, la etología alimenticia influye en el consumo y selección de alimentos, pero requiere un balance nutricional adecuado para garantizar salud, bienestar y productividad; tales como:
     .row.bg-color-15.justify-content-center
       .col-8
-        .p-5
-          //- Inicio Tarjetas
+        .p-5          
           .row(data-aos="fade-right").justify-content-center
-            .col-12.col-md-6.col-xl-6.mb-4.d-flex.flex-column
-              .tarjeta.p-4.rounded-5.h-100.bg-white.border
-                .row.justify-content-center.mb-3.align-items-center
-                  .col-7
-                    figure
-                      img(src='@/assets/curso/tema1/tarjeta03_1.svg', alt='' style="width:100px").m-auto
-                h4.card-title.text-center.mb-0 Componentes 
-                h4.card-title.text-center.mb-4 En sistemas semicriollos
-                ul.lista-ul.mb-0
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Mayor tiempo de búsqueda de alimento.
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Consumo fraccionado.
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Selección natural de ingredientes.
-            .col-12.col-md-6.col-xl-6.mb-4.d-flex.flex-column
-              .tarjeta.p-4.rounded-5.h-100.bg-white.border
+            .col-12.col-md-10.col-lg-6.mb-4.d-flex.flex-column
+              .tarjeta.p-4.rounded-5.h-100.bg-white.border.shadow
                 .row.justify-content-center.mb-3
-                  .col-7
+                  .col-12.text-center
                     figure
-                      img(src='@/assets/curso/tema1/tarjeta03_2.svg', alt='' style="width:100px").m-auto
-                h4.card-title.text-center.mb-4 Balance técnico
-                ul.lista-ul.mb-0
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                      img(src='@/assets/curso/tema1/tarjeta03_1.svg', alt='', style="max-width: 90px; width: 100%;").mx-auto                
+                .text-center.mb-4
+                  h4.card-title.mb-0 Componentes
+                  h4.card-title.mb-0 En sistemas semicriollos                
+                ul.lista-ul.mb-0.color-vinotinto-custom
+                  li.d-flex.align-items-start.mb-2
+                    i.fas.fa-check-circle.me-3.mt-1
+                    p.mb-0 Mayor tiempo de búsqueda de alimento.
+                  li.d-flex.align-items-start.mb-2
+                    i.fas.fa-check-circle.me-3.mt-1
+                    p.mb-0 Consumo fraccionado.
+                  li.d-flex.align-items-start.mb-0
+                    i.fas.fa-check-circle.me-3.mt-1
+                    p.mb-0 Selección natural de ingredientes.                    
+            .col-12.col-md-10.col-lg-6.mb-4.d-flex.flex-column
+              .tarjeta.p-4.rounded-5.h-100.bg-white.border.shadow
+                .row.justify-content-center.mb-3
+                  .col-12.text-center
+                    figure
+                      img(src='@/assets/curso/tema1/tarjeta03_2.svg', alt='', style="max-width: 90px; width: 100%;").mx-auto                
+                .text-center.mb-4
+                  h4.card-title.mb-0 Balance técnico
+                  h4.card-title.mb-0 &nbsp;                
+                ul.lista-ul.mb-0.color-vinotinto-custom
+                  li.d-flex.align-items-start.mb-2
+                    i.fas.fa-check-circle.me-3.mt-1
                     p.mb-0 16–18 % proteína.
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  li.d-flex.align-items-start.mb-2
+                    i.fas.fa-check-circle.me-3.mt-1
                     p.mb-0 3.5–4 % calcio.
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  li.d-flex.align-items-start.mb-2
+                    i.fas.fa-check-circle.me-3.mt-1
                     p.mb-0 Energía metabolizable adecuada.
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  li.d-flex.align-items-start.mb-2
+                    i.fas.fa-check-circle.me-3.mt-1
                     p.mb-0 200–300 ml de agua/día/ave.
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  li.d-flex.align-items-start.mb-0
+                    i.fas.fa-check-circle.me-3.mt-1
                     p.mb-0 Temperatura ideal: 18–26 °C.
           //- Fin Tarjetas
     //- Título con imagen
-    .bg-full-width.mt-5
+    .bg-full-width
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
@@ -558,67 +549,67 @@
     p(data-aos="fade-left") El control del estrés en gallinas ponedoras es clave para mantener la productividad, salud y calidad del huevo. A continuación, se presenta cómo afecta a las gallinas el estrés crónico, cuáles son sus causas y cómo prevenirlo:
     .row.bg-color-16
       .col-12
-        .p-5
+        .p-2
           //- Carrusel
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-6 col-lg-6")
                       .bg-color-18.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/carrusel01_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center Afecta
                         p.card-text.text-center
-                        ul.lista-ul.mb-0
+                        ul.lista-ul.mb-0.color-vinotinto-custom
                           li.d-flex
-                            i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                            i.fas.fa-check-circle.me-3
                             p.mb-0 Producción del huevo.
                           li.d-flex
-                            i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                            i.fas.fa-check-circle.me-3
                             p.mb-0 Tamaño y calidad de cáscara.
                           li.d-flex
-                            i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                            i.fas.fa-check-circle.me-3
                             p.mb-0 Sistema inmune.
                           li.d-flex
-                            i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                            i.fas.fa-check-circle.me-3
                             p.mb-0 Conversión alimenticia.
                       .bg-color-18.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/carrusel01_2.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center Causas
                         p.card-text.text-center
-                        ul.lista-ul.mb-0
+                        ul.lista-ul.mb-0.color-vinotinto-custom
                           li.d-flex
-                            i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                            i.fas.fa-check-circle.me-3
                             p.mb-0 Cambios bruscos de dieta.
                           li.d-flex
-                            i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                            i.fas.fa-check-circle.me-3
                             p.mb-0 Hacinamiento.
                           li.d-flex
-                            i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                            i.fas.fa-check-circle.me-3
                             p.mb-0 Depredadores.
                           li.d-flex
-                            i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                            i.fas.fa-check-circle.me-3
                             p.mb-0 Climas extremos.
                           li.d-flex
-                            i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                            i.fas.fa-check-circle.me-3
                             p.mb-0 Manejo brusco
                       .bg-color-18.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/carrusel01_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center Prevención
                         p.card-text.text-center
-                        ul.lista-ul.mb-0
+                        ul.lista-ul.mb-0.color-vinotinto-custom
                           li.d-flex
-                            i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                            i.fas.fa-check-circle.me-3
                             p.mb-0 Rutinas fijas.
                           li.d-flex
-                            i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                            i.fas.fa-check-circle.me-3
                             p.mb-0 Transiciones graduales.
                           li.d-flex
-                            i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                            i.fas.fa-check-circle.me-3
                             p.mb-0 Protección perimetral.
                           li.d-flex
-                            i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                            i.fas.fa-check-circle.me-3
                             p.mb-0 Manejo tranquilo.
                   .col-lg-3.order-lg-1.d-none.d-lg-block
                       figure
@@ -638,7 +629,7 @@
         .p-5
           //- Inicio Tabla
           .row.justify-content-center
-            .col-md-6
+            .col-lg-10.col-md-auto
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 2.
                 span  Bienestar según el sistema productivo.
@@ -675,13 +666,13 @@
     p(data-aos="fade-left") El bienestar animal se basa en salud, comportamiento natural y evaluación continua, sustentado en normativa colombiana que garantiza condiciones éticas y productivas adecuadas. Los principios son:
     .row.bg-color-16
       .col-12
-        .p-5
+        .p-3
           //- Carrusel
           .bg-full-width.mt-5
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
-                  .col-lg-9.mb-3.mb-lg-0.order-lg-2
+                .row.justify-content-center.align-items-center
+                  .col-lg-9.mb-5.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-6 col-lg-6")
                       .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                         img(src='@/assets/curso/tema1/carrusel02_1.png').w-100
@@ -720,7 +711,7 @@
     .row.justify-content-center
       .col-lg-1.bg-color-5.p-2
         img(src='@/assets/curso/tema1/icono.svg', style="max-width: 100px")
-      .col-lg-9.bg-color-5
+      .col-lg-11.bg-color-5
         p.p-4 En Colombia, estas bases se sustentan en la Ley 1774 de 2016, que reconoce a los animales como seres sintientes, el Decreto 2113 de 2017 y la Resolución ICA 16409 de 2024.
     //- Título con imagen
     .bg-full-width.mt-5
@@ -793,7 +784,7 @@
     p(data-aos="fade-left") Los cinco dominios del bienestar animal constituyen un enfoque integral que permite evaluar las condiciones de vida de las aves, considerando aspectos físicos, ambientales y emocionales, tales como:
     .row.bg-color-16
       .col-12
-        .p-5
+        .p-2
           //- Carrusel
           .bg-full-width.mt-5
             .px-4.px-md-5.pb-md-3             
@@ -828,10 +819,10 @@
                           p Integra los efectos de los anteriores para evaluar el estado emocional del animal, considerando experiencias positivas como confort y curiosidad, y negativas como miedo o sufrimiento.
                   .col-lg-3.order-lg-1.d-none.d-lg-block
                       figure
-                        img(src='@/assets/curso/tema1/img12.png', style="max-width: 250px", data-aos="zoom-in").m-auto
+                        img(src='@/assets/curso/tema1/img12.png', data-aos="zoom-in").m-auto
           //- Fin Carrusel
     //- Título con imagen
-    .bg-full-width.mt-5
+    .bg-full-width
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
@@ -839,40 +830,43 @@
           h3.titulo-con-imagen__texto Relación entre libertades y dominios
     //- Título con imagen
     p(data-aos="fade-left") Las cinco libertades establecen condiciones de bienestar y los cinco dominios evalúan el estado emocional; ambos modelos son complementarios y aplicables en la certificación de bienestar animal (ICA, 2024), así:
-    .row.justify-content-center
-      .col-md-6
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 3.
-          span  Relación entre las cinco libertades y los cinco dominios.
-        .tabla-a
-          table
-            thead
-              tr
-                th.text-center(style="width: 30%") Cinco Libertades (FAWC)
-                th.text-center(style="width: 30%") Cinco Dominios (Mellor et al.)
-                th.text-center(style="width: 30%") Relación
-            tbody
-              tr
-                td Libre de hambre y sed
-                td Nutrición
-                td Garantiza bienestar fisiológico básico.
-              tr
-                td Libre de incomodidad
-                td Ambiente físico
-                td Evalúa microclima y confort.
-              tr
-                td Libre de dolor, lesión y enfermedad
-                td Salud
-                td Refuerza prevención y atención veterinaria.
-              tr
-                td Libre para expresar comportamientos normales
-                td Interacciones y comportamiento
-                td Evalúa grado de expresión natural.
-              tr
-                td Libre de miedo y angustia
-                td Estado mental
-                td Refleja equilibrio emocional y psicológico.
-    //- FinTabla
+    .row.bg-color-15
+      .col-12
+        .p-5
+          .row.justify-content-center
+            .col-md-auto
+              .titulo-sexto.color-acento-contenido.mb-3
+                h5 Tabla 3.
+                span  Relación entre las cinco libertades y los cinco dominios.
+              .tabla-a
+                table
+                  thead
+                    tr
+                      th.text-center(style="width: 30%") Cinco Libertades (FAWC)
+                      th.text-center(style="width: 30%") Cinco Dominios (Mellor et al.)
+                      th.text-center(style="width: 30%") Relación
+                  tbody
+                    tr
+                      td Libre de hambre y sed
+                      td Nutrición
+                      td Garantiza bienestar fisiológico básico.
+                    tr
+                      td Libre de incomodidad
+                      td Ambiente físico
+                      td Evalúa microclima y confort.
+                    tr
+                      td Libre de dolor, lesión y enfermedad
+                      td Salud
+                      td Refuerza prevención y atención veterinaria.
+                    tr
+                      td Libre para expresar comportamientos normales
+                      td Interacciones y comportamiento
+                      td Evalúa grado de expresión natural.
+                    tr
+                      td Libre de miedo y angustia
+                      td Estado mental
+                      td Refleja equilibrio emocional y psicológico.
+          
     //- Título con imagen
     .bg-full-width.mt-5
       .px-4.px-md-5.pb-md-3
@@ -948,6 +942,7 @@
             a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")
               span.fw-bold.me-2 Descargar
               i.fas.fa-file-download
+    Separador
     //- Inicio Tema1.4
     .row.mt-5
         #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -968,49 +963,49 @@
           //- Inicio Tarjetas
           .row(data-aos="fade-right").justify-content-center
             .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column              
-              .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+              .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden.shadow
                 figure.mb-0
                   img(src='@/assets/curso/tema1/slide04_1.png').w-100
                 .p-4
                   h4.card-title.text-center.mb-4 Características          
-                  ul.lista-ul.mb-0
+                  ul.lista-ul.mb-0.color-vinotinto-custom
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Selección genética rigurosa.
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Control sanitario estricto.
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Bajo volumen poblacional.
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Alto valor económico.
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Programas de mejoramiento continuo.
             .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column
-              .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+              .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden.shadow
                 figure.mb-0
                   img(src='@/assets/curso/tema1/slide04_2.png').w-100                
                 .p-4
                   h4.card-title.text-center.mb-1 Objetivo
                   h5.card-title.text-center.mb-4 Transmitir características como:
-                  ul.lista-ul.mb-0
+                  ul.lista-ul.mb-0.color-vinotinto-custom
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Alta producción de huevo.
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Resistencia a enfermedades.
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Buena conversión alimenticia.
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Calidad de cáscara.
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Persistencia de postura.
             //- Fin Tarjetas
     p(data-aos="fade-left") Estas aves generalmente son manejadas por empresas genéticas internacionales.
@@ -1030,18 +1025,18 @@
               .row
                 .col-9
                   h4 Características
-                  ul.lista-ul.mb-0
+                  ul.lista-ul.mb-0.color-vinotinto-custom
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Manejo mixto (hembras + machos). 
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Producción de huevo fértil. 
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Control estricto de fertilidad. 
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Programas de vacunación especializados.
                 .col-3
                   figure.mb-4
@@ -1050,9 +1045,9 @@
               .row
                 .col-9
                   h4 Objetivo
-                  ul.lista-ul.mb-0
+                  ul.lista-ul.mb-0.color-vinotinto-custom
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Generar pollitas con alto potencial productivo para granjas comerciales.                    
                 .col-3
                   figure.mb-4
@@ -1061,18 +1056,18 @@
               .row
                 .col-9
                   h4 Indicadores técnicos
-                  ul.lista-ul.mb-0
+                  ul.lista-ul.mb-0.color-vinotinto-custom
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Porcentaje de fertilidad. 
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Incubabilidad. 
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Uniformidad corporal. 
                     li.d-flex
-                      i.fas.fa-check-circle.me-3(style="color:#AD9721")
+                      i.fas.fa-check-circle.me-3
                       p.mb-0 Peso estándar según edad.
                 .col-3
                   figure.mb-4
@@ -1097,18 +1092,18 @@
                       img(src="@/assets/curso/tema1/slide05_1.png")
                   .col-lg-7.order-1.mb-3.mb-lg-0
                     h4 Levante (0 – 16 semanas)                    
-                    ul.lista-ul.mb-0
+                    ul.lista-ul.mb-0.color-vinotinto-custom
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Desarrollo corporal.
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Formación ósea.
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Preparación reproductiva.
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Meta: lograr peso y uniformidad adecuados.
                 .row.align-items-center.p-4.p-md-5
                   .col-lg-5.order-2
@@ -1116,15 +1111,15 @@
                       img(src="@/assets/curso/tema1/slide05_2.png")
                   .col-lg-7.order-1.mb-3.mb-lg-0
                     h4 Pre-postura (16–18 semanas)
-                    ul.lista-ul.mb-0
+                    ul.lista-ul.mb-0.color-vinotinto-custom
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Desarrollo del aparato reproductor.
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Inicio de estímulo lumínico.
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Incremento gradual de calcio en la dieta.                     
                 .row.align-items-center.p-4.p-md-5
                   .col-lg-5.order-2
@@ -1132,15 +1127,15 @@
                       img(src="@/assets/curso/tema1/slide05_3.png")
                   .col-lg-7.order-1.mb-3.mb-lg-0
                     h4 Postura (18–80 semanas aprox.)
-                    ul.lista-ul.mb-0
+                    ul.lista-ul.mb-0.color-vinotinto-custom
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Pico de producción (25–30 semanas).
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Persistencia productiva.
                       li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        i.fas.fa-check-circle.me-3
                         p.mb-0 Control de calidad de huevo.
     //- Fin Slideshow
     //- Título con imagen
@@ -1155,41 +1150,41 @@
     //- Inicio Tarjetas
     .row(data-aos="fade-right").justify-content-center
       .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column              
-        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+        .tarjeta.rounded-4.h-100.bg-white.border.overflow-hidden.shadow
           figure.mb-0
             img(src='@/assets/curso/tema1/tarjeta04_1.png').w-100
           .p-4
             h4.card-title.text-center.mb-4 Abuelas          
             p.text-center Mejoramiento genético. Producen reproductoras.
       .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column
-        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+        .tarjeta.rounded-4.h-100.bg-white.border.overflow-hidden.shadow
           figure.mb-0
             img(src='@/assets/curso/tema1/tarjeta04_2.png').w-100                
           .p-4
             h4.card-title.text-center.mb-4 Reproductoras
             p.text-center Producción de huevo fértil; producen pollitas comerciales.
       .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column
-        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+        .tarjeta.rounded-4.h-100.bg-white.border.overflow-hidden.shadow
           figure.mb-0
             img(src='@/assets/curso/tema1/tarjeta04_3.png').w-100                
           .p-4
             h4.card-title.text-center.mb-4 Comerciales
             p.text-center Producción de huevo de consumo, mercado.
       //- Fin Tarjetas
-    .row.mb-5      
+    .row
       .col-lg-8.mb-4.mb-lg-0.p-4(data-aos="fade-right")
         .row
           p En la medida en que se desciende en la pirámide:
         .row.bg-color-13.p-4.mb-3
-          ul.lista-ul.mb-0
+          ul.lista-ul.mb-0.color-vinotinto-custom
             li.d-flex
-              i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+              i.fas.fa-check-circle.me-3
               p.mb-0 Aumenta el número de aves.
             li.d-flex
-              i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+              i.fas.fa-check-circle.me-3
               p.mb-0 Disminuye el valor genético individual.
             li.d-flex
-              i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+              i.fas.fa-check-circle.me-3
               p.mb-0 Aumenta el volumen de producción.
         .row
           p Comprender estas etapas permite mejorar la selección genética, alimentación, sanidad y manejo, garantizando productividad y adaptación, incluso en sistemas semicriollos o de traspatio.      
@@ -1216,7 +1211,7 @@
           img.h-100.w-100(src='@/assets/curso/tema1/img14.png', style="object-fit: cover;")
       .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
         p.mb-0 Las líneas comerciales de gallinas ponedoras agrupan diferentes genéticas especializadas que varían en productividad, adaptación, eficiencia alimenticia y resistencia, permitiendo elegir la más adecuada según condiciones productivas.
-    p.mb-5(data-aos="fade-left") En este punto se conocerán la raza comercial, características generales, parámetros productivos estimados, ventajas y desventajas.
+    p.mb-3(data-aos="fade-left") En este punto se conocerán la raza comercial, características generales, parámetros productivos estimados, ventajas y desventajas.
     //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-3
             .p-4.p-md-5
@@ -1265,7 +1260,7 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Razas criollas de gallinas ponedoras
     //- Título con imagen
-    p.mb-5(data-aos="fade-left") Las razas criollas incluyen aves rústicas, adaptadas a sistemas extensivos, con diversidad fenotípica, producción moderada y gran valor cultural, destacándose por su resistencia y adaptación local. A continuación, se estudiarán cada una de estas:
+    p.mb-3(data-aos="fade-left") Las razas criollas incluyen aves rústicas, adaptadas a sistemas extensivos, con diversidad fenotípica, producción moderada y gran valor cultural, destacándose por su resistencia y adaptación local. A continuación, se estudiarán cada una de estas:
     //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-3
             .p-4.p-md-5
@@ -1347,7 +1342,7 @@
         .p-5
           //- Inicio Tabla
           .row.justify-content-center
-            .col-md-10
+            .col-lg-10.col-md-auto
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 4.
                 span  Parámetros y consideración.
@@ -1386,13 +1381,13 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Comparación entre líneas comerciales y gallinas criollas
     //- Título con imagen
-    p.mb-5(data-aos="fade-left") El comparativo muestra diferencias clave en productividad, adaptación, costos y bienestar, orientando la elección según sistema, recursos y objetivos; a continuación, se analizan estas diferencias.
+    p(data-aos="fade-left") El comparativo muestra diferencias clave en productividad, adaptación, costos y bienestar, orientando la elección según sistema, recursos y objetivos; a continuación, se analizan estas diferencias.
     .row.bg-color-15
       .col-12
         .p-5
           //- Inicio Tabla
           .row.justify-content-center
-            .col-md-10
+            .col-lg-12.col-md-auto
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 5.
                 span  Comparativo entre líneas comerciales vs. Gallinas criollas
@@ -1461,21 +1456,21 @@
     //- Inicio Tarjetas
     .row(data-aos="fade-right").justify-content-center
       .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column              
-        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden.shadow
           figure.mb-0
             img(src='@/assets/curso/tema1/tarjeta05_1.png').w-100
           .p-4
             h4.card-title.text-center.mb-4 Jaula tecnificada          
             p.text-center Líneas comerciales: máxima producción.
       .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column
-        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden.shadow
           figure.mb-0
             img(src='@/assets/curso/tema1/tarjeta05_2.png').w-100                
           .p-4
             h4.card-title.text-center.mb-4 Piso / galpón
             p.text-center Líneas o cruzas: buena conversión y control moderado.
       .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column
-        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden.shadow
           figure.mb-0
             img(src='@/assets/curso/tema1/tarjeta05_3.png').w-100                
           .p-4

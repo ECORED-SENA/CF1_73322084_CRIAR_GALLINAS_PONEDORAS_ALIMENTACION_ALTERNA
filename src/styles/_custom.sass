@@ -111,7 +111,16 @@ figcaption
 .boton--sm:focus *, 
 .boton:active *, 
 .boton--sm:active *
-    color: #ffffff !important;
+  color: #ffffff !important
+   
+  &.fa-brands:before, 
+  &.fa-regular:before, 
+  &.fa-solid:before, 
+  &.fa:before, 
+  &.fab:before, 
+  &.far:before, 
+  &.fas:before
+    color: #ffffff !important
 
 
 /* Código para los subtítulos que tienen imagenes */
@@ -157,6 +166,9 @@ figcaption
   &-slider
     background-image: url("../assets/curso/portada/fondo-banner-principal.png") !important
     background-position: bottom
+    margin-inline: -3.2rem !important
+    background-repeat: no-repeat
+    background-size: cover
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: #FF0011 !important
 .slyder-a__bullets__item--active 
@@ -217,6 +229,9 @@ figcaption
       align-items: flex-start
       i
         padding-top: 4px
+ 
+  .fa-brands:before, .fa-regular:before, .fa-solid:before, .fa:before, .fab:before, .far:before, .fas:before
+    color: #ffffff !important
 
 .acordeon-tipo-2
   .tarjeta.acordeonA
@@ -230,6 +245,10 @@ figcaption
   .acordeonA
     p
       padding-left: 3.5rem !important 
+
+    // FORZAR ÍCONOS BLANCOS SOLO EN EL ACORDEÓN TIPO 2
+    .fa-brands:before, .fa-regular:before, .fa-solid:before, .fa:before, .fab:before, .far:before, .fas:before
+      color: #ffffff !important
 /*Fin Accordion*/
 
 /* Tablas */
@@ -280,31 +299,6 @@ figcaption
 /*Fin Audio*/
 
 
-/* Código para los carruseles */
-.carousel-bg .fas
-  &.fa-chevron-left, &.fa-chevron-right
-    display: inline-flex
-    align-items: center
-    justify-content: center
-    width: 40px
-    height: 40px
-    background-color: #FF0011
-    border-radius: 50%
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
-    color: #000
-    font-size: 16px
-  @media screen and (max-width: $bp-max-md)
-    background-color: transparent !important
-    box-shadow: none !important
-    font-size: 20px !important
-
-.bordes
-  border: 1px solid #CBD5E0 !important
-/*Fin Código para los carruseles */
-
-
-
-
 /*Vinetas con numeros*/
 .tabs-c__tab--active
   font-weight: bold
@@ -320,4 +314,65 @@ figcaption
   background-color: #E5E2D3
 /*Vinetas con numeros*/
 
+ /* Código para los carruseles */
+.carousel-bg
+  .fas
+    &.fa-chevron-left, &.fa-chevron-right
+      display: inline-flex !important
+      align-items: center !important
+      justify-content: center !important
+      width: 45px !important
+      height: 45px !important
+      min-width: 45px !important
+      min-height: 45px !important
+      padding: 0 !important
+      margin: 0 !important
+      border-radius: 50% !important
+      background-color: #E63946 !important
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+      font-size: 16px      
+      color: #ffffff !important
+      &::before
+        color: #ffffff !important      
+      @media screen and (max-width: $bp-max-md)
+        background-color: transparent !important
+        box-shadow: none !important
+        font-size: 20px !important
+        color: #E63946 !important 
+        &::before
+          color: #E63946 !important
 
+.bordes
+  border: 1px solid #CBD5E0 !important
+/* Fin Código para los carruseles */
+ 
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: black !important
+
+.fa-brands:before, .fa-regular:before, .fa-solid:before, .fa:before, .fab:before, .far:before, .fas:before
+  color: black !important
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: black !important
+
+.color-vinotinto-custom i.fas 
+  color: #AD9721 !important
+  &::before 
+    color: #AD9721 !important
+
+
+
+
+a.btn.btn-danger.w-buttons
+  i.fas
+    color: #ffffff !important
+    
+    // Forzamos el pseudo-elemento :before de FontAwesome de manera aislada
+    &.fa-brands:before, 
+    &.fa-regular:before, 
+    &.fa-solid:before, 
+    &.fa:before, 
+    &.fab:before, 
+    &.far:before, 
+    &.fas:before
+      color: #ffffff !important
