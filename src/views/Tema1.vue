@@ -371,9 +371,6 @@
                       td Sistema óseo
                       td Fuente de calcio para la cáscara                    
           //- FinTabla
-          .row.justify-content-center
-            .col-md-6
-              p.bg-color-17.p-2 Referencia Tabla - Norma APA
     p(data-aos="fade-left") El conocimiento de la anatomía aviar permite detectar enfermedades tempranamente, ajustar programas de alimentación, optimizar iluminación y ventilación, y aplicar planes sanitarios y zootécnicos en producción avícola.
     Separador
     //- Inicio Tema1.2
@@ -877,7 +874,7 @@
     //- Título con imagen
     p(data-aos="fade-left") El bienestar animal en aves de postura exige comprender enfoques éticos y científicos, diferenciando las cinco libertades de los principios para mejorar su manejo productivo. Las diferencias son:
     //- Slideshow
-    .bg-full-width.bg-fondo-slider.mb-3
+    .bg-full-width.bg-fondo-slider.mb-5
             .p-4.p-md-5
               SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
                 .row.align-items-center.p-4.p-md-5
@@ -1148,7 +1145,7 @@
     //- Título con imagen
     p(data-aos="fade-left") La estructura piramidal genética organiza la producción de huevo desde abuelas hasta aves comerciales, permitiendo optimizar genética, manejo, alimentación, sanidad y productividad en los sistemas avícolas. A continuación, se detallará por niveles:
     //- Inicio Tarjetas
-    .row(data-aos="fade-right").justify-content-center
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column              
         .tarjeta.rounded-4.h-100.bg-white.border.overflow-hidden.shadow
           figure.mb-0
@@ -1171,8 +1168,8 @@
             h4.card-title.text-center.mb-4 Comerciales
             p.text-center Producción de huevo de consumo, mercado.
       //- Fin Tarjetas
-    .row
-      .col-lg-8.mb-4.mb-lg-0.p-4(data-aos="fade-right")
+    .row(data-aos="fade-right")
+      .col-lg-7.mb-4.mb-lg-0.p-4
         .row
           p En la medida en que se desciende en la pirámide:
         .row.bg-color-13.p-4.mb-3
@@ -1188,9 +1185,9 @@
               p.mb-0 Aumenta el volumen de producción.
         .row
           p Comprender estas etapas permite mejorar la selección genética, alimentación, sanidad y manejo, garantizando productividad y adaptación, incluso en sistemas semicriollos o de traspatio.      
-      .col-lg-4(data-aos="fade-left")
+      .col-lg-5(data-aos="fade-left")
         figure
-          img(src="@/assets/curso/tema1/img13.png", style="width: 450px").m-auto
+          img(src="@/assets/curso/tema1/img13.png", style="width: 500px").m-auto
     Separador
     //- Inicio Tema1.5
     .row.mt-5
@@ -1336,7 +1333,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La producción de huevo comercial se organiza en una pirámide genética que asegura mejoramiento continuo, uniformidad y eficiencia en las gallinas ponedoras, dividida en tres niveles principales. Esta pirámide se divide en tres niveles: abuelas, reproductoras y comerciales.
-    p.mb-5(data-aos="fade-left") Para seleccionar las gallinas criollas se debe tener en cuenta unos parámetros, los cuales, se detallan en la siguiente tabla:
+    p.mb-2(data-aos="fade-left") Para seleccionar las gallinas criollas se debe tener en cuenta unos parámetros, los cuales, se detallan en la siguiente tabla:
     .row.bg-color-15
       .col-12
         .p-5
