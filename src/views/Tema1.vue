@@ -939,7 +939,7 @@
             h4.mb-2 Diferencia entre los principios del bienestar animal y las cinco libertades en aves de postura
             p.mb-0 Para profundizar en cada una de las diferencias existentes entre las cinco libertades y los principios del bienestar animal, lo invitamos a realizar la siguiente lectura complementaria:     
           .mt-3.mt-lg-0.ps-lg-4            
-            a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_01.pdf')" target="_blank")
+            a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_2_Diferencias_principios_bienestar_animal_cinco_libertades_aves_postura.pdf')" target="_blank")
               span.fw-bold.me-2 Descargar
               i.fas.fa-file-download
     Separador

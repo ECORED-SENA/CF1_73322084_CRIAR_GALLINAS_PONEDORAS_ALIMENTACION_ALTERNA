@@ -585,7 +585,7 @@
             h4.mb-2 Principales protocolos o procedimientos operativos estándar (POE) que deben cumplirse
             p.mb-0 Lo invitamos a conocer los protocolos o procedimientos operativos estándar esenciales que se deben cumplir en el manejo de gallinas ponedoras para garantizar prácticas, bioseguridad, bienestar animal y una producción eficiente.
           .mt-3.mt-lg-0.ps-lg-4            
-            a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_02.pdf')" target="_blank")
+            a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_1_Protocolos_Operativos_Estandar_(POE).pdf')" target="_blank")
               span.fw-bold.me-2 Descargar
               i.fas.fa-file-download
     p(data-aos="fade-left")  La bioseguridad en granjas avícolas de postura no es una acción puntual, sino un sistema continuo y verificable que protege la salud de las aves, la inocuidad de los huevos y la estabilidad del sistema productivo. Cumplir los protocolos establecidos por el ICA garantiza la certificación como “Granja Avícola Biosegura” (Resolución 3651 de 2014) y constituye el primer paso para obtener la certificación de Bienestar Animal (Resolución 16409 de 2024).
