@@ -1,1 +1,2 @@
-module.exports = 'Conciliación, control y mejora continua del registro contable'
+module.exports =
+  'Manejo integral operativo y sanitario en explotaciones avícolas de postura'
