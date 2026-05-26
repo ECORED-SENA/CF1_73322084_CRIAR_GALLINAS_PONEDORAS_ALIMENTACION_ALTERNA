@@ -219,7 +219,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 En gallinas ponedoras, el ovario izquierdo y el oviducto participan en la formación del huevo en 24–26 horas, influyendo en la postura, nutrición, estrés y manejo lumínico.
-    p.mb-5(data-aos="fade-left") En el siguiente recurso se presentan detalladamente los componentes, la formación del huevo y la importancia productiva del sistema reproductivo de la gallina ponedora:
+    p.mb-5(data-aos="fade-left") A continuación, se presentan detalladamente los componentes, la formación del huevo y la importancia productiva del sistema reproductivo de la gallina ponedora:
     //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-3
             .p-4.p-md-5

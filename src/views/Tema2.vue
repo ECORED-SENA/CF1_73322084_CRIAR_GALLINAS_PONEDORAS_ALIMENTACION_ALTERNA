@@ -583,7 +583,7 @@
             img(src='@/assets/curso/tema2/icono-lectura.svg', style="width: 80px")          
           .flex-grow-1.text-center.text-lg-start
             h4.mb-2 Principales protocolos o procedimientos operativos estándar (POE) que deben cumplirse
-            p.mb-0 Presenta los protocolos o procedimientos operativos estándar esenciales que deben cumplir en el manejo de gallinas ponedoras para garantizar prácticas, bioseguridad, bienestar animal y una producción eficiente.  
+            p.mb-0 Lo invitamos a conocer los protocolos o procedimientos operativos estándar esenciales que se deben cumplir en el manejo de gallinas ponedoras para garantizar prácticas, bioseguridad, bienestar animal y una producción eficiente.
           .mt-3.mt-lg-0.ps-lg-4            
             a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_02.pdf')" target="_blank")
               span.fw-bold.me-2 Descargar
